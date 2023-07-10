@@ -4,6 +4,7 @@ GEN5 Cytation Plate Reader Square Tile Stitching Code
 import os
 import numpy as np
 import tifffile as tf
+'''Place python file directly in desired folder to stitch images or specify directory down below'''
 #CUR_DIR = os.getcwd()
 CUR_DIR = r'w:\Senior_Design\Summer_Miguel\1st_experiement_onlytritc\230630_174426_Ibidi_6_29_2023\230630_174426_Plate 1'
 os.chdir(CUR_DIR)
@@ -78,7 +79,7 @@ def switch_and_write(input_image,img_type,well_location,stitch_folder,original_f
     os.chdir(stitch_folder)
     print('Switched to stitch directory')
     tf.imwrite(well_location+'_'+img_type+'_stitch.tif', input_image)
-    print(f"'{well_location}''{img_type}'_stitch.tif file written successfully.")
+    print(f"'{well_location}' '{img_type}'_stitch.tif file written successfully.")
     os.chdir(original_folder)
     print('Switched back to original directory')
 [wells, filters] = findfiltersandwells(CUR_DIR)
