@@ -1,6 +1,8 @@
 # Project Overview
 This project involves the development of an optical system to produce illumination patterns that activate split recombinases, thus creating light-responsive genetic switches. It combines optical hardware design, software development, and various molecular biology techniques to achieve its objectives.
 
+Presentation link: [https://docs.google.com/presentation/d/1I0h8sXrSxqRPr9vFO4Dn70sqU8Q8BGWCgEQZ5cLE6IA/edit?usp=sharing]
+
 ## Components
 1. Optical Hardware System
 
